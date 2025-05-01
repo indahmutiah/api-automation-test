@@ -17,6 +17,12 @@ npm install mocha chai supertest
 npm install dotenv
 ```
 
+3. Install Mochawesome
+
+```bash
+npm install --save-dev mochawesome
+```
+
 ## Environment Variables
 
 Create a `.env` file in the root directory of the project and add the following variables:
@@ -28,5 +34,9 @@ Create a `.env` file in the root directory of the project and add the following 
 ## Running the tests
 
 ```bash
-npx mocha booker-e2e.spec.js
+npm test
 ```
+
+## Documentation
+
+![Docmentation](./report/assets/booker-ss.png)

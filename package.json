@@ -4,7 +4,7 @@
   "description": "This is a repository of API Automation Testing with Mocha Chai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha booker-e2e.spec.js"
   },
   "keywords": [],
   "author": "Indah Mutiah MZ",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "chai": "^5.2.0",
     "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^7.1.0"
   },
   "type": "module",
