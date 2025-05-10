@@ -20,7 +20,7 @@ npm install dotenv
 3. Install Mochawesome
 
 ```bash
-npm install --save-dev mochawesome
+npm install mochawesome --save-dev 
 ```
 
 ## Environment Variables
